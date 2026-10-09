@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-[#07090e] text-slate-100 font-sans antialiased;
+    color-scheme: dark;
+    background-image: 
+      linear-gradient(to bottom, rgba(7, 9, 14, 0.55) 0%, rgba(7, 9, 14, 0.7) 50%, rgba(7, 9, 14, 0.82) 100%),
+      url('/images/codeverse-wallpaper.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+  }
+
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #0d111a;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #1e2638;
+    border-radius: 4px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #2b354e;
+  }
+}
+
+@layer utilities {
+  .glow-indigo {
+    box-shadow: 0 0 25px -5px rgba(99, 102, 241, 0.35);
+  }
+  
+  .glow-purple {
+    box-shadow: 0 0 25px -5px rgba(168, 85, 247, 0.35);
+  }
+
+  .glass-card {
+    background: rgba(14, 18, 30, 0.82);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+  }
+}
+
+/* Enable wallpaper glow through all platform card containers */
+.bg-\[\#101522\] {
+  background-color: rgba(14, 19, 32, 0.84) !important;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+.bg-\[\#0a0d14\] {
+  background-color: rgba(10, 14, 22, 0.82) !important;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+
+.bg-\[\#0e1320\],
+.bg-\[\#121724\],
+.bg-\[\#0c101a\] {
+  background-color: rgba(12, 16, 28, 0.84) !important;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}

@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+*/node_modules/
+
+# Production builds
+dist/
+dist-ssr/
+*/dist/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+
+# Environment
+.env.local
+.env.*.local
+
+# Java Build Artifacts
+bin/
+target/
+*.class
+*/backend-java/bin/
+*/backend-java/target/
+
+# OS and Editor files
+.DS_Store
+*/.DS_Store
+.idea/
+.vscode/*
+!.vscode/extensions.json
