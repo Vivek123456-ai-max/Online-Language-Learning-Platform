@@ -45,6 +45,18 @@ Profile Management: Apna naam, email aur learning preferences update karna.
    <img width="1322" height="583" alt="Screenshot 2026-10-09 at 9 38 06 PM" src="https://github.com/user-attachments/assets/65b5501a-6fda-4973-aacf-ed8c4d2be465" />
    <img width="1303" height="697" alt="Screenshot 2026-10-09 at 9 38 23 PM" src="https://github.com/user-attachments/assets/b860b30f-c542-43ac-bcb6-960d09524f60" />
 
+5. Database Store
+
+<img width="1390" height="654" alt="Screenshot 2026-10-10 at 10 27 43 AM" src="https://github.com/user-attachments/assets/0af496bd-1cd0-4190-af5e-9ecc43eac37d" />
+
+<img width="1389" height="650" alt="Screenshot 2026-10-10 at 10 26 49 AM" src="https://github.com/user-attachments/assets/1871263a-fc97-494f-8111-be5c97825b34" />
+
+6. Auth
+
+   <img width="1392" height="640" alt="Screenshot 2026-10-10 at 10 27 04 AM" src="https://github.com/user-attachments/assets/959b3d18-4c96-4473-af2e-5151a0a471d8" />
+
+
+
 
    
 
